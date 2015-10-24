@@ -1,0 +1,45 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.title-color{
+	color: white;
+}
+
+.title-color .h1 {
+	font-weight: 500;
+}
+
+.skill-title {
+font-weight: 600;
+font-size: 16pt;
+margin-bottom:20px;
+}
+.services{
+	margin-bottom: 5px;
+}
+.logos-color{
+	color:rgba(255,91,26,1);
+	color: -moz-radial-gradient(center, ellipse cover, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
+	color: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,91,26,1)), color-stop(100%, rgba(255,48,26,1)));
+	color: -webkit-radial-gradient(center, ellipse cover, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
+	color: -o-radial-gradient(center, ellipse cover, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
+	color: -ms-radial-gradient(center, ellipse cover, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
+	color: radial-gradient(ellipse at center, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5b1a', endColorstr='#ff301a', GradientType=1 );
+}
+.logos-color:hover{
+	color: #1c68ff;
+}
+.services-color {
+	
+	background: rgba(255,91,26,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,91,26,1)), color-stop(100%, rgba(255,48,26,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5b1a', endColorstr='#ff301a', GradientType=1 );
+}
