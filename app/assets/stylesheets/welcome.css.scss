@@ -43,3 +43,10 @@ margin-bottom:20px;
 	background: radial-gradient(ellipse at center, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5b1a', endColorstr='#ff301a', GradientType=1 );
 }
+
+.button-shadow{
+	box-shadow: 5px 5px 46px -4px #000000;
+	-webkit-box-shadow: 5px 5px 46px -4px #000000;
+	-moz-box-shadow: 5px 5px 46px -4px #000000;
+	-o-box-shadow: 5px 5px 46px -4px #000000;
+}
