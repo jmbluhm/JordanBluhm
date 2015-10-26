@@ -23,9 +23,7 @@ font-weight: 600;
 font-size: 16pt;
 margin-bottom:20px;
 }
-.services{
-	margin: 5px;
-}
+
 .logos-color{
 	color:rgba(255,91,26,1);
 	color: -moz-radial-gradient(center, ellipse cover, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
@@ -41,19 +39,27 @@ margin-bottom:20px;
 }
 .services-color {
 	
-	background: rgba(255,91,26,1);
-	background: -moz-radial-gradient(center, ellipse cover, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,91,26,1)), color-stop(100%, rgba(255,48,26,1)));
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
-	background: -o-radial-gradient(center, ellipse cover, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
-	background: -ms-radial-gradient(center, ellipse cover, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
-	background: radial-gradient(ellipse at center, rgba(255,91,26,1) 0%, rgba(255,48,26,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5b1a', endColorstr='#ff301a', GradientType=1 );
+	background: rgba(240,175,9,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(240,175,9,1) 0%, rgba(240,82,9,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(240,175,9,1)), color-stop(100%, rgba(240,82,9,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(240,175,9,1) 0%, rgba(240,82,9,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(240,175,9,1) 0%, rgba(240,82,9,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(240,175,9,1) 0%, rgba(240,82,9,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(240,175,9,1) 0%, rgba(240,82,9,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0af09', endColorstr='#f05209', GradientType=1 );
 }
 
 .button-shadow{
-	box-shadow: 5px 5px 46px -4px #000000;
-	-webkit-box-shadow: 5px 5px 46px -4px #000000;
-	-moz-box-shadow: 5px 5px 46px -4px #000000;
-	-o-box-shadow: 5px 5px 46px -4px #000000;
+	-webkit-box-shadow: inset 0px 0px 84px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 84px -12px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 84px -12px rgba(0,0,0,0.75);
+}
+
+.par-text {
+	
+    height: 458px; 
+     position: absolute; 
+     text-align: center; 
+     top: 200px; 
+     width: 100%;
 }
