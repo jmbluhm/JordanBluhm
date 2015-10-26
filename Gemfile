@@ -34,7 +34,7 @@ gem 'spring',        group: :development
 # gem 'capistrano-rails', group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem 'aws-sdk', '~> 2'
 gem "font-awesome-rails"
 
 # Use ActiveModel has_secure_password
