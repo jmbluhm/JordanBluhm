@@ -11,13 +11,20 @@
 	font-weight: 500;
 }
 
+.btn-pad{
+	margin: 40px 0;
+}
+
+.maps iframe {
+	pointer-events: none;
+}
 .skill-title {
 font-weight: 600;
 font-size: 16pt;
 margin-bottom:20px;
 }
 .services{
-	margin-bottom: 5px;
+	margin: 5px;
 }
 .logos-color{
 	color:rgba(255,91,26,1);

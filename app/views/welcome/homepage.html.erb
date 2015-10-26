@@ -34,7 +34,8 @@
 <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle button-shadow"><i class="fa fa-bars"></i></a>
+    <a id="menu-toggle-2" href="#top" class="btn btn-dark btn-lg toggle"><i class="fa fa-arrow-up"></i></a>
+	<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -58,6 +59,10 @@
             </li>
         </ul>
     </nav>
+    
+	
+	
+	
 
     <!-- Header -->
     <header id="top" class="header">
@@ -95,7 +100,9 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
+								<!-- <a href="#education" class="fa fa-circle fa-stack-2x"> -->
+                                	<i class="fa fa-circle fa-stack-2x"></i>
+								<!-- </a> -->
                                 <i class="fa fa-graduation-cap fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
@@ -103,7 +110,7 @@
                                 </h4>
                                 <p>B.S. in Mechanical Engineering <br>Kansas State University</p>
 								<!-- <%= link_to "Learn More", welcome_education_path(), class: "btn btn-light"%> -->
-                                <a href="#education" class="btn btn-light">Learn More</a>
+                                <a href="#education" class="btn btn-light btn-pad">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -116,7 +123,7 @@
                                     <strong>Professional Experience</strong>
                                 </h4>
                                 <p>Business Analyst <br> Service Specialist</p>
-                                <a href="#experience" class="btn btn-light">Learn More</a>
+                                <a href="#experience" class="btn btn-light btn-pad">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -129,7 +136,7 @@
                                     <strong>Skills & Software</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#skills" class="btn btn-light">Learn More</a>
+                                <a href="#skills" class="btn btn-light btn-pad">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -142,7 +149,7 @@
                                     <strong>Interests</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#interests" class="btn btn-light">Learn More</a>
+                                <a href="#interests" class="btn btn-light btn-pad">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -257,29 +264,30 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="https://s3-us-west-2.amazonaws.com/resume1989/images/portfolio-1.jpg">
-                                    <img class="img-portfolio img-responsive" url='https://s3-us-west-2.amazonaws.com/resume1989/images/portfolio-1.jpg'>
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src='https://s3-us-west-2.amazonaws.com/resume1989/images/portfolio-1.jpg'>
+									
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="assets/portfolio-2.jpg">
+                                    <img class="img-portfolio img-responsive" src='https://s3-us-west-2.amazonaws.com/resume1989/images/portfolio-2.jpg'>
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="assets/portfolio-3.jpg">
+                                    <img class="img-portfolio img-responsive" src='https://s3-us-west-2.amazonaws.com/resume1989/images/portfolio-3.jpg'>
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="assets/portfolio-4.jpg">
+                                    <img class="img-portfolio img-responsive" src='https://s3-us-west-2.amazonaws.com/resume1989/images/portfolio-4.jpg'>
                                 </a>
                             </div>
                         </div>
@@ -295,11 +303,11 @@
     </section>
 	
     <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
+    <aside class="call-to-action bg-primary services-color">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
+                    <h3>Don't be afraid to click these buttons. Great things may happen if you do!</h3>
 					<%= link_to "Reach Out!", new_contact_path(),  class: "btn btn-lg btn-light"%>
                     <!-- <a href="new_contacts_path" class="btn btn-lg btn-light">Click Me!</a> -->
                     <a href="#top" class="btn btn-lg btn-dark">Back to the top!</a>
@@ -309,6 +317,7 @@
     </aside>
 
     <!-- Map -->
+<div class='embed-container maps'>
     <section id="contact" class="map">
         <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.952359215655!2d-118.48094244906213!3d33.99375742816191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bacecb15cae5%3A0x7f7af81ff8766659!2s15+Paloma+Ave%2C+Venice%2C+CA+90291!5e0!3m2!1sen!2sus!4v1445639012290"></iframe>
         <br />
@@ -317,7 +326,7 @@
         </small>
         </iframe>
     </section>
-
+</div>
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -340,7 +349,7 @@
                             <a href="https://www.facebook.com/jordan.bluhm.12"><i class="fa fa-facebook fa-fw fa-3x logos-color"></i></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/jmbluhmhttps://twitter.com/jmbluhm"><i class="fa fa-twitter fa-fw fa-3x logos-color"></i></a>
+                            <a href="https://twitter.com/jmbluhm"><i class="fa fa-twitter fa-fw fa-3x logos-color"></i></a>
                         </li>
                         
                     </ul>
