@@ -158,7 +158,7 @@ hr.small {
 /* Header */
 
 .header {
-	background: url(https://s3-us-west-2.amazonaws.com/resume1989/bg.jpg) 50% 0 no-repeat fixed;
+	background: url(https://s3-us-west-2.amazonaws.com/resume1989/bg.jpg) no-repeat center center scroll;
     display: table;
     position: relative;
     width: 100%;
@@ -220,9 +220,15 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 	
+<<<<<<< HEAD
 	-webkit-box-shadow: inset 0px 0px 158px -12px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 0px 0px 158px -12px rgba(0,0,0,0.75);
 	box-shadow: inset 0px 0px 158px -12px rgba(0,0,0,0.75);
+=======
+	-webkit-box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
+>>>>>>> styling
 }
 
 .experience {
@@ -232,10 +238,16 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 	
+<<<<<<< HEAD
 	-webkit-box-shadow: inset 0px 0px 158px -12px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 0px 0px 158px -12px rgba(0,0,0,0.75);
 	box-shadow: inset 0px 0px 158px -12px rgba(0,0,0,0.75);
 	
+=======
+	-webkit-box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
+>>>>>>> styling
 }
 
 .skills {
@@ -245,9 +257,15 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 	
+<<<<<<< HEAD
 	-webkit-box-shadow: inset 0px 0px 158px -12px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 0px 0px 158px -12px rgba(0,0,0,0.75);
 	box-shadow: inset 0px 0px 158px -12px rgba(0,0,0,0.75);
+=======
+	-webkit-box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
+>>>>>>> styling
 }
 
 .interests {
@@ -257,9 +275,15 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 	
+<<<<<<< HEAD
 	-webkit-box-shadow: inset 0px 0px 158px -12px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 0px 0px 158px -12px rgba(0,0,0,0.75);
 	box-shadow: inset 0px 0px 158px -12px rgba(0,0,0,0.75);
+=======
+	-webkit-box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
+>>>>>>> styling
 }
 
 
@@ -312,5 +336,20 @@ footer {
 
 .top-pad {
 	padding: 40px 0;
+}
+
+
+@media only screen and (max-width:768px) {
+	.header-scroll{
+		
+		
+		background: url(https://s3-us-west-2.amazonaws.com/resume1989/bg.jpg) 50% 0 no-repeat fixed;
+	}
+	
+}
+@media only screen and (max-width: 768px) {
+	.callout-title {
+		font-size: 3em !important ;
+	}
 }
 
