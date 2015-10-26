@@ -155,7 +155,7 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 
-/* Header */
+/* Header  mobile*/
 
 .header {
 	background: url(https://s3-us-west-2.amazonaws.com/resume1989/bg.jpg) no-repeat center center scroll;
@@ -258,6 +258,7 @@ hr.small {
 
 .interests {
 	background: url(https://s3-us-west-2.amazonaws.com/resume1989/callout2.jpg) no-repeat center center scroll;
+	
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -321,15 +322,18 @@ footer {
 	padding: 40px 0;
 }
 
-
+/*header desktop*/
 @media only screen and (min-width:768px) {
 	.header-scroll{
 		
-		
-		background: url(https://s3-us-west-2.amazonaws.com/resume1989/bg.jpg) 50% 0 no-repeat fixed;
+/*EDIT DESKTOP HEADER IMAGE POSITION HERE WITH THE TEN PERCENT*/
+		background: url(https://s3-us-west-2.amazonaws.com/resume1989/bg.jpg) 50% -100px no-repeat fixed;
 	}
 	
 }
+
+
+/*title text smaller mobile*/
 @media only screen and (max-width: 768px) {
 	.callout-title {
 		font-size: 3em !important ;
