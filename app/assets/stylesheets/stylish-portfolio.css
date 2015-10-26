@@ -208,7 +208,7 @@ hr.small {
 .education {
 	 
 
-	background: url(https://s3-us-west-2.amazonaws.com/resume1989/callout3.jpg) 50% 0 no-repeat fixed;
+	background: url(https://s3-us-west-2.amazonaws.com/resume1989/callout3.jpg) no-repeat center center scroll;
     display: table;
     position: relative;
     width: 100%;
@@ -328,6 +328,9 @@ footer {
 		
 /*EDIT DESKTOP HEADER IMAGE POSITION HERE WITH THE TEN PERCENT*/
 		background: url(https://s3-us-west-2.amazonaws.com/resume1989/bg.jpg) 50% -100px no-repeat fixed;
+	}
+	.education-scroll {
+		background: url(https://s3-us-west-2.amazonaws.com/resume1989/callout3.jpg) 50% -100px no-repeat fixed;
 	}
 	
 }
