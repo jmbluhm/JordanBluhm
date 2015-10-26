@@ -332,6 +332,16 @@ footer {
 	
 }
 
+/*mobile image shift header*/
+@media only screen and (max-width:768px) {
+	.header-scroll{
+		
+		/*background: url(https://s3-us-west-2.amazonaws.com/resume1989/bg.jpg) no-repeat center center scroll;*/
+		background-position: 70% center;
+	}
+	
+}
+
 
 /*title text smaller mobile*/
 @media only screen and (max-width: 768px) {
