@@ -213,7 +213,7 @@ hr.small {
     position: relative;
     width: 100%;
 /*    height: 100%;*/
-	height: 40%;
+	height: 50%;
 	max-height: 400px;
 	
     -webkit-background-size: cover;
@@ -232,7 +232,7 @@ hr.small {
     position: relative;
     width: 100%;
 /*    height: 100%;*/
-	height: 40%;
+	height: 50%;
 	max-height: 400px;
 	
     -webkit-background-size: cover;
@@ -256,7 +256,7 @@ hr.small {
     position: relative;
     width: 100%;
 /*    height: 100%;*/
-	height: 40%;
+	height: 50%;
 	max-height: 400px;
 	
     -webkit-background-size: cover;
@@ -271,16 +271,22 @@ hr.small {
 }
 
 .interests {
-	background: url(https://s3-us-west-2.amazonaws.com/resume1989/callout2.jpg) no-repeat center center scroll;
+	background: url(https://s3-us-west-2.amazonaws.com/resume1989/images/callout2.jpg) no-repeat 0 center scroll;
+    display: table;
+    position: relative;
+    width: 100%;
+/*    height: 100%;*/
+	height: 50%;
+	max-height: 400px;
 	
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-
-	-webkit-box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
-	box-shadow: inset 0px 0px 110px -2px rgba(0,0,0,0.75);
+	
+	-webkit-box-shadow: inset 3px -35px 110px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 3px -35px 110px -2px rgba(0,0,0,0.75);
+	box-shadow: inset 3px -35px 110px -2px rgba(0,0,0,0.75);
 
 }
 
@@ -368,6 +374,14 @@ footer {
 	    -o-background-size: cover
 	}
 	
+	.interests-scroll {
+		background: url(https://s3-us-west-2.amazonaws.com/resume1989/images/callout2.jpg) 0 0 no-repeat fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover
+	}
+	
 }
 
 /*mobile image shift header*/
@@ -388,3 +402,9 @@ footer {
 	}
 }
 
+
+
+.lead-list {
+	
+	margin-bottom: 5px;
+}
