@@ -251,7 +251,7 @@ hr.small {
 }
 
 .skills {
-	background: url(https://s3-us-west-2.amazonaws.com/resume1989/images/desk.jpg) no-repeat 0 center scroll;
+	background: url(https://s3-us-west-2.amazonaws.com/resume1989/images/screenshot.jpg) no-repeat 0 center scroll;
     display: table;
     position: relative;
     width: 100%;
@@ -353,7 +353,7 @@ footer {
 	}
 	
 	.experience-scroll {
-		background: url(https://s3-us-west-2.amazonaws.com/resume1989/images/screenshot.jpg) 0 0 no-repeat fixed;
+		background: url(https://s3-us-west-2.amazonaws.com/resume1989/images/desk.jpg) 0 0 no-repeat fixed;
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    background-size: cover;
