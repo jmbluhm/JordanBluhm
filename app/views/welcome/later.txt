@@ -1,0 +1,37 @@
+		<!-- skills photo -->	
+	    <section id="skills" class="skills skills-scroll" data-type="background4"; data-speed="1.2";  >
+       
+			    <div class="text-vertical-center title-color ">
+	            	<h1 class='callout-title'>SKILLS AND SOFTWARE</h1>
+	        	</div>
+		
+	    </section>
+		<!-- skills text -->
+			<section id="skills-text" class="about">
+		        <div class="container">
+		            <div class="row">
+		                <div class="col-lg-12 text-center">
+		                    <h2>I have skills!</h2>
+		                    <p class="lead">Some of the things I know I learned from college and work experience, others I picked up on my own! Below are a few highlights.</p>
+							<div class="col-md-8">
+								<h4 class="skill-title">OS, Applications, and Languages<br></h4>
+								<div class="col-md-6">			
+									<p class="lead">Mac OS X<br>Linux (UBUNTU and Kali)<br>Microsoft Windows<br>Filemaker Pro<br>Selenium WebDriver<br>Ruby on Rails<br>Labview (with DAQ)<br>Microsoft Excel (with VBA)	
+									</p>
+								</div>
+					
+								<div class="col-md-6">
+								<p class="lead">Salesforce Administration<br>Google Apps (with Scripts)<br>Solidworks<br>Adobe Photoshop<br>Adobe Illustrator<br>Adobe After Effects<br>FinalCut Pro X<br>Logic Pro X</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<h4 class="skill-title">Core Competencies<br></h4>
+								<p class="lead">Agile/SCRUM Development<br>Software/Web QA Principles<br>Sales & Customer Service<br>Training & Presenting<br>UI/UX Design<br>Finite Element Analysis<br>Carbon Composite Design<br>Thermodynamics</p>
+							</div>
+							
+		                </div>
+		            </div>
+		            <!-- /.row -->
+		        </div>
+		        <!-- /.container -->
+		    </section><!-- end skills section -->
