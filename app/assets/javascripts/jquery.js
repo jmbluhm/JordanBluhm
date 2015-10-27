@@ -90,9 +90,9 @@ $(document).ready(function(){
       $(window).scroll(function() {
         // HTML5 proves useful for helping with creating JS functions!
         // also, negative value because we're scrolling upwards 
-		  if  (mqTab.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}  
-		  if (mqDesk.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}                        
-          if (mqLg.matches){var yPos = -980 -($window.scrollTop() / $scroll.data('speed'));}
+		  if  (mqTab.matches){var yPos = 100-($window.scrollTop() / $scroll.data('speed'));}  
+		  if (mqDesk.matches){var yPos = 600-($window.scrollTop() / $scroll.data('speed'));}                        
+          if (mqLg.matches){var yPos = -700 -($window.scrollTop() / $scroll.data('speed'));}
          
         // background position
         var coords = '50% '+ yPos + 'px';
@@ -110,7 +110,7 @@ $(document).ready(function(){
         // HTML5 proves useful for helping with creating JS functions!
         // also, negative value because we're scrolling upwards 
 		  if  (mqTab.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}  
-		  if (mqDesk.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}                        
+		  if (mqDesk.matches){var yPos = 500-($window.scrollTop() / $scroll.data('speed'));}                        
           if (mqLg.matches){var yPos = -500 -($window.scrollTop() / $scroll.data('speed'));}
          
         // background position
@@ -128,7 +128,7 @@ $(document).ready(function(){
       $(window).scroll(function() {
         // HTML5 proves useful for helping with creating JS functions!
         // also, negative value because we're scrolling upwards 
-		  if  (mqTab.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}  
+		  if  (mqTab.matches){var yPos = 500-($window.scrollTop() / $scroll.data('speed'));}  
 		  if (mqDesk.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}                        
           if (mqLg.matches){var yPos = -1200 -($window.scrollTop() / $scroll.data('speed'));}
          
@@ -139,7 +139,7 @@ $(document).ready(function(){
         $scroll.css({ backgroundPosition: coords });    
       }); // end window scroll
    });  // end experience section function
-   //parallax for experience section
+   //parallax for education section
    $('section[data-type="background2"]').each(function(){
      // declare the variable to affect the defined data-type
      var $scroll = $(this);
@@ -147,9 +147,9 @@ $(document).ready(function(){
       $(window).scroll(function() {
         // HTML5 proves useful for helping with creating JS functions!
         // also, negative value because we're scrolling upwards 
-		  if  (mqTab.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}  
-		  if (mqDesk.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}                        
-          if (mqLg.matches){var yPos = -1200 -($window.scrollTop() / $scroll.data('speed'));}
+		  if  (mqTab.matches){var yPos = -200 -($window.scrollTop() / $scroll.data('speed'));}  
+		  if (mqDesk.matches){var yPos = 440-($window.scrollTop() / $scroll.data('speed'));}                        
+          if (mqLg.matches){var yPos = -1300 -($window.scrollTop() / $scroll.data('speed'));}
          
         // background position
         var coords = '50% '+ yPos + 'px';
