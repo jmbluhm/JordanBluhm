@@ -119,5 +119,24 @@ $(document).ready(function(){
         // move the background
         $scroll.css({ backgroundPosition: coords });    
       }); // end window scroll
-   });  // end section function
+   });  // end skills section function
+   //parallax for experience section
+   $('section[data-type="background3"]').each(function(){
+     // declare the variable to affect the defined data-type
+     var $scroll = $(this);
+                     
+      $(window).scroll(function() {
+        // HTML5 proves useful for helping with creating JS functions!
+        // also, negative value because we're scrolling upwards 
+		  if  (mqTab.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}  
+		  if (mqDesk.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}                        
+          if (mqLg.matches){var yPos = -1200 -($window.scrollTop() / $scroll.data('speed'));}
+         
+        // background position
+        var coords = '50% '+ yPos + 'px';
+ 
+        // move the background
+        $scroll.css({ backgroundPosition: coords });    
+      }); // end window scroll
+   });  // end experience section function
 }); // close out script

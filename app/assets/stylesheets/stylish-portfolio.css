@@ -342,58 +342,7 @@ footer {
 	padding: 40px 0;
 }
 
-/*header desktop*/
-@media only screen and (min-width:992px) {
-	
-	.header-scroll{
-		
-/*EDIT DESKTOP HEADER IMAGE POSITION HERE WITH THE TEN PERCENT*/
-		background: url(https://s3-us-west-2.amazonaws.com/resume1989/bg.jpg) 50% -100px no-repeat fixed;
-	}
-	
-	.education-scroll {
-		background: url(https://s3-us-west-2.amazonaws.com/resume1989/callout3.jpg) 50% 0 no-repeat fixed;
-	    -webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    background-size: cover;
-	    -o-background-size: cover
-	}
-	
-	.experience-scroll {
-		background: url(https://s3-us-west-2.amazonaws.com/resume1989/images/desk.jpg) 0 0 no-repeat fixed;
-	    -webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    background-size: cover;
-	    -o-background-size: cover
-	}
-	
-	.skills-scroll {
-		background: url(https://s3-us-west-2.amazonaws.com/resume1989/images/screenshot.jpg) 50% 0 fixed;
-	    width: 100%;
-		height: auto;
-		margin: 0 auto;
-		position: relative;
-		padding: 200px 0;
-		display:table;
-	  
-		
-	}
-	
-	.interests-scroll {
-		background: url(https://s3-us-west-2.amazonaws.com/resume1989/images/callout2.jpg) 50% 0 fixed;
-	    width: 100%;
-		height: auto;
-		margin: 0 auto;
-		position: relative;
-		padding: 200px 0;
-		display:table;
-	}
-	
-	.callout-title {
-		width: 100%;
-	}
-	
-}
+
 
 
 @media only screen and (min-width : 768px){
@@ -419,19 +368,24 @@ footer {
 		display:table;
 		min-height: 200px;
 	}
+	
+	.experience-scroll {
+		background: url(https://s3-us-west-2.amazonaws.com/resume1989/images/desk.jpg) 10% 100px fixed;
+	    width: 100%;
+		height: auto;
+		margin: 0 auto;
+		position: relative;
+		padding: 100px 0;
+		display:table;
+		min-height: 200px;
+	}
 }
 
-
-
-
-
-
-
-
-
-
-/*mobile image shift header*/
+/*mobile*/
 @media only screen and (max-width:768px) {
+	.callout-title {
+		font-size: 3em !important ;
+	}
 	.header-scroll{
 		
 		/*background: url(https://s3-us-west-2.amazonaws.com/resume1989/bg.jpg) no-repeat center center scroll;*/
@@ -440,16 +394,65 @@ footer {
 	
 }
 
-
-/*title text smaller mobile*/
-@media only screen and (max-width: 768px) {
-	.callout-title {
-		font-size: 3em !important ;
+/*desktop*/
+@media only screen and (min-width:992px) {
+	
+	.header-scroll{
+		
+/*EDIT DESKTOP HEADER IMAGE POSITION HERE WITH THE TEN PERCENT*/
+		background: url(https://s3-us-west-2.amazonaws.com/resume1989/bg.jpg) 50% -100px no-repeat fixed;
 	}
+	
+	.education-scroll {
+		background: url(https://s3-us-west-2.amazonaws.com/resume1989/callout3.jpg) 50% 0  fixed;
+	    width: 100%;
+		height: auto;
+		margin: 0 auto;
+		position: relative;
+		padding: 200px 0;
+		display:table;
+		max-height: 300px;
+	}
+	
+	.experience-scroll {
+		background: url(https://s3-us-west-2.amazonaws.com/resume1989/images/desk.jpg) 10% 0 fixed;
+	    width: 100%;
+		height: auto;
+		margin: 0 auto;
+		position: relative;
+		padding: 200px 0;
+		display:table;
+		max-height: 300px;
+	}
+	
+	.skills-scroll {
+		background: url(https://s3-us-west-2.amazonaws.com/resume1989/images/screenshot.jpg) 50% 0 fixed;
+	    width: 100%;
+		height: auto;
+		margin: 0 auto;
+		position: relative;
+		padding: 200px 0;
+		display:table;
+		max-height: 300px;
+	  
+		
+	}
+	
+	.interests-scroll {
+		background: url(https://s3-us-west-2.amazonaws.com/resume1989/images/callout2.jpg) 50% 0 fixed;
+	    width: 100%;
+		height: auto;
+		margin: 0 auto;
+		position: relative;
+		padding: 200px 0;
+		display:table;
+	}
+	
+	.callout-title {
+		width: 100%;
+	}
+	
 }
-
-
-
 
 .lead-list {
 	
@@ -462,6 +465,7 @@ footer {
   font-weight: 500;
   line-height: 1.4;
 }
+
 @media (min-width: 768px) {
   .lead-title {
     font-size: 28px;
