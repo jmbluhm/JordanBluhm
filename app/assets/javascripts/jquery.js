@@ -8,70 +8,7 @@ $('.maps').click(function () {
 });
 
 
-var mq = window.matchMedia( "(min-width: 768px)");
-if(mq.matches){
-	$(document).ready(function(){
-  	  $('section[data-type="background"]').each(function(){
-      	  var $bgobj = $(this); // assigning the object
-    
-       	 $(window).scroll(function() {
-           	 var yPos = -100 -($(window).scrollTop() / $bgobj.data('speed')); 
-            
-           	 // Put together our final background position
-           	 var coords = '50% '+ yPos + 'px';
 
-           	 // Move the background
-            	$bgobj.css(  {backgroundPosition: coords });
-        	}); 
-    	});    
-		
-    	  $('section[data-type="background2"]').each(function(){
-        	  var $bgobj = $(this); // assigning the object
-    
-         	 $(window).scroll(function() {
-             	 var yPos2 = 850 -($(window).scrollTop() / $bgobj.data('speed')); 
-            
-             	 // Put together our final background position
-             	 var coords = '50% '+ yPos2 + 'px';
-
-             	 // Move the background
-              	$bgobj.css(  {backgroundPosition: coords });
-          	}); 
-			
-      	});
-		
-  	  $('section[data-type="background3"]').each(function(){
-      	  var $bgobj = $(this); // assigning the object
-  
-       	 $(window).scroll(function() {
-           	 var yPos2 = 1500 -($(window).scrollTop() / $bgobj.data('speed')); 
-          
-           	 // Put together our final background position
-           	 var coords = '50% '+ yPos2 + 'px';
-
-           	 // Move the background
-            	$bgobj.css(  {backgroundPosition: coords });
-        	}); 
-		
-    	});  
-  	  $('section[data-type="background4"]').each(function(){
-      	  var $bgobj = $(this); // assigning the object
-  
-       	 $(window).scroll(function() {
-           	 var yPos2 = 3000 -($(window).scrollTop() / $bgobj.data('speed')); 
-          
-           	 // Put together our final background position
-           	 var coords = '50% '+ yPos2 + 'px';
-
-           	 // Move the background
-            	$bgobj.css(  {backgroundPosition: coords });
-        	}); 
-		
-    	});  
-		
-    	  
-	});
-}
 
 
 
@@ -82,6 +19,25 @@ $(document).ready(function(){
    var mqTab = window.matchMedia( "(min-width: 768px)");
    var mqDesk = window.matchMedia("(min-width: 992px)");
    var mqLg = window.matchMedia("(min-width: 1200px)");
+   //parallax for header section
+   $('section[data-type="background"]').each(function(){
+     // declare the variable to affect the defined data-type
+     var $scroll = $(this);
+                     
+      $(window).scroll(function() {
+        // HTML5 proves useful for helping with creating JS functions!
+        // also, negative value because we're scrolling upwards 
+		  if  (mqTab.matches){var yPos = -($window.scrollTop() / $scroll.data('speed'));}  
+		  if (mqDesk.matches){var yPos = 600-($window.scrollTop() / $scroll.data('speed'));}                        
+          if (mqLg.matches){var yPos = -500 -($window.scrollTop() / $scroll.data('speed'));}
+         
+        // background position
+        var coords = '50% '+ yPos + 'px';
+ 
+        // move the background
+        $scroll.css({ backgroundPosition: coords });    
+      }); // end window scroll
+   });  // end  header section function
    //parallax for interests section
    $('section[data-type="background5"]').each(function(){
      // declare the variable to affect the defined data-type
@@ -128,7 +84,7 @@ $(document).ready(function(){
       $(window).scroll(function() {
         // HTML5 proves useful for helping with creating JS functions!
         // also, negative value because we're scrolling upwards 
-		  if  (mqTab.matches){var yPos = 500-($window.scrollTop() / $scroll.data('speed'));}  
+		  if  (mqTab.matches){var yPos = 300-($window.scrollTop() / $scroll.data('speed'));}  
 		  if (mqDesk.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}                        
           if (mqLg.matches){var yPos = -1000 -($window.scrollTop() / $scroll.data('speed'));}
          
@@ -147,7 +103,7 @@ $(document).ready(function(){
       $(window).scroll(function() {
         // HTML5 proves useful for helping with creating JS functions!
         // also, negative value because we're scrolling upwards 
-		  if  (mqTab.matches){var yPos = -200 -($window.scrollTop() / $scroll.data('speed'));}  
+		  if  (mqTab.matches){var yPos = -300 -($window.scrollTop() / $scroll.data('speed'));}  
 		  if (mqDesk.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}                        
           if (mqLg.matches){var yPos = -1500 -($window.scrollTop() / $scroll.data('speed'));}
          
