@@ -58,7 +58,7 @@ if(mq.matches){
       	  var $bgobj = $(this); // assigning the object
   
        	 $(window).scroll(function() {
-           	 var yPos2 = 2800 -($(window).scrollTop() / $bgobj.data('speed')); 
+           	 var yPos2 = 3000 -($(window).scrollTop() / $bgobj.data('speed')); 
           
            	 // Put together our final background position
            	 var coords = '50% '+ yPos2 + 'px';
@@ -69,19 +69,55 @@ if(mq.matches){
 		
     	});  
 		
-    	  $('section[data-type="background5"]').each(function(){
-        	  var $bgobj = $(this); // assigning the object
-  
-         	 $(window).scroll(function() {
-             	 var yPos2 = 3400 -($(window).scrollTop() / $bgobj.data('speed')); 
-          
-             	 // Put together our final background position
-             	 var coords = '50% '+ yPos2 + 'px';
-
-             	 // Move the background
-              	$bgobj.css(  {backgroundPosition: coords });
-          	}); 
-		
-      	}); 
+    	  
 	});
 }
+
+
+
+
+$(document).ready(function(){
+   // cache the window object
+   $window = $(window);
+   var mqTab = window.matchMedia( "(min-width: 768px)");
+   var mqDesk = window.matchMedia("(min-width: 992px)");
+   var mqLg = window.matchMedia("(min-width: 1200px)");
+   //parallax for interests section
+   $('section[data-type="background5"]').each(function(){
+     // declare the variable to affect the defined data-type
+     var $scroll = $(this);
+                     
+      $(window).scroll(function() {
+        // HTML5 proves useful for helping with creating JS functions!
+        // also, negative value because we're scrolling upwards 
+		  if  (mqTab.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}  
+		  if (mqDesk.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}                        
+          if (mqLg.matches){var yPos = -980 -($window.scrollTop() / $scroll.data('speed'));}
+         
+        // background position
+        var coords = '50% '+ yPos + 'px';
+ 
+        // move the background
+        $scroll.css({ backgroundPosition: coords });    
+      }); // end window scroll
+   });  // end  interests section function
+   //parallax for skills section
+   $('section[data-type="background4"]').each(function(){
+     // declare the variable to affect the defined data-type
+     var $scroll = $(this);
+                     
+      $(window).scroll(function() {
+        // HTML5 proves useful for helping with creating JS functions!
+        // also, negative value because we're scrolling upwards 
+		  if  (mqTab.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}  
+		  if (mqDesk.matches){var yPos = 200-($window.scrollTop() / $scroll.data('speed'));}                        
+          if (mqLg.matches){var yPos = -500 -($window.scrollTop() / $scroll.data('speed'));}
+         
+        // background position
+        var coords = '50% '+ yPos + 'px';
+ 
+        // move the background
+        $scroll.css({ backgroundPosition: coords });    
+      }); // end window scroll
+   });  // end section function
+}); // close out script
