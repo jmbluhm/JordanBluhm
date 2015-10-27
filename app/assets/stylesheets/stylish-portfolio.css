@@ -208,13 +208,14 @@ hr.small {
 .education {
 	 
 
-	background: url(https://s3-us-west-2.amazonaws.com/resume1989/callout3.jpg) no-repeat 0 center scroll;
+	background: url(https://s3-us-west-2.amazonaws.com/resume1989/callout3.jpg) no-repeat center center scroll;
     display: table;
     position: relative;
     width: 100%;
 /*    height: 100%;*/
 	height: 50%;
 	max-height: 200px;
+	
 	
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -415,7 +416,7 @@ footer {
 	
 	.education-scroll {
 		background: url(https://s3-us-west-2.amazonaws.com/resume1989/callout3.jpg) 50% 0   fixed;
-		background-size: 120%;
+		background-size: 140%;
 	    width: 100%;
 		height: auto;
 		margin: 0 auto;
