@@ -414,6 +414,13 @@ footer {
 	.callout-title {
 		font-size: 3em !important ;
 	}
+	.lead-title {
+	    margin-bottom: 10px;
+	    font-size: 20px;
+	    font-weight: 500;
+	    line-height: 1.4;
+		
+	}
 	
 	
 }
@@ -499,6 +506,8 @@ footer {
   font-weight: 500;
   line-height: 1.4;
 }
+
+
 
 @media (min-width: 768px) {
   .lead-title {
